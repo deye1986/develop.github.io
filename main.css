@@ -12,8 +12,8 @@ body{
   
   display: flex;
   flex-direction: column; 
-  max-height: 50%;
   background-color: white;
+  
 }
 
 .testclass{
@@ -22,9 +22,6 @@ body{
   max-height: auto;
   max-width: 500px;
 }
-
-
-
 
 .article1{
   position: absolute;
@@ -35,6 +32,22 @@ body{
   left: 700px;
   font-family: 'Open Sans', sans-serif;
   font-size: 25px;
+}
+
+.testimg-2{
+  position: absolute;
+  overflow: hidden;
+  max-height: auto;
+  max-width: 500px;
+  top: 1100px;
+  right: 0px;
+  bottom: 0px;
+  left: 63%;
+}
+
+.pagefooter{
+  position: fixed;
+  bottom: 20px;
 }
 
 /* main */
