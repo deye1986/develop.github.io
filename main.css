@@ -13,14 +13,14 @@ body{
   display: flex;
   flex-direction: column; 
   background-color: white;
-  
+  justify-content: space-around;
 }
 
 .testclass{
   display: flex;
-  justify-content: left;
+  justify-content: flex-end;
   max-height: auto;
-  max-width: 500px;
+  max-width: 40vw;
 }
 
 .article1{
@@ -36,13 +36,10 @@ body{
 
 .testimg-2{
   position: absolute;
-  overflow: hidden;
   max-height: auto;
-  max-width: 500px;
+  max-width: 40vw;
   top: 1100px;
-  right: 0px;
-  bottom: 0px;
-  left: 63%;
+
 }
 
 .pagefooter{
@@ -137,7 +134,8 @@ body{
     display: flex;
     justify-content: right;
     height: 500px;
-    width: auto;   
+    width: auto;
+   
 }
 
  /* Navbar container on testpage */
