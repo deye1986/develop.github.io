@@ -13,7 +13,7 @@ body{
   display: flex;
   flex-direction: column; 
   background-color: white;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .testclass{
@@ -24,8 +24,8 @@ body{
 }
 
 .article1{
+  display: flex;
   position: absolute;
-  overflow: hidden;
   top: 300px;
   right: 0px;
   bottom: 0px;
