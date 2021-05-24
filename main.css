@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 
 body{
         
@@ -9,29 +10,43 @@ body{
 /* testpage */
 
 .testpage{
-  
+  box-sizing: border-box;
   display: flex;
   flex-direction: column; 
   background-color: white;
   justify-content: center;
 }
 
+.boxes{
+
+  width: 50%;
+}
+
+.testheading{
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 500;
+  font-family: 'exo 2', sans-serif;
+  padding-right: 20px;
+  max-width: 80vw;
+  max-height: 40vh;
+}
+
 .testclass{
   display: flex;
   justify-content: flex-end;
-  max-height: auto;
-  max-width: 40vw;
+  max-height: 80vh;
+  max-width: 45vw;
 }
 
 .article1{
   display: flex;
-  position: absolute;
-  top: 300px;
-  right: 0px;
-  bottom: 0px;
-  left: 700px;
-  font-family: 'Open Sans', sans-serif;
+  justify-content: flex-end;
+  font-family: 'exo 2', sans-serif;
   font-size: 25px;
+  padding-right: 20px;
+  max-height: 50vh;
+  max-width: 50vw;
 }
 
 .testimg-2{
@@ -94,8 +109,7 @@ body{
     font-family: 'Roboto Mono', monospace;
     color: yellow;
     font-size: 90%;
-    align-items: baseline;
-        
+    align-items: baseline;       
 }
 
 .links{
@@ -141,15 +155,16 @@ body{
  /* Navbar container on testpage */
  .navbar2 {
     overflow: hidden;
-    background-color: #333;
+    background-color: lightgray;
     font-family: Arial;
   }
   
   /* Links inside the navbar */
   .navbar2 a {
+    
     float: left;
     font-size: 16px;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -166,7 +181,7 @@ body{
     font-size: 16px;
     border: none;
     outline: none;
-    color: white;
+    color: black;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; /* Important for vertical align on mobile phones */
@@ -175,14 +190,14 @@ body{
   
   /* blue background color for navbar links on hover */
   .navbar2 a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(0, 38, 255);
+    background-color: white;
   }
   
   /* Dropdown content (hidden by default) */
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: lightgray;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -200,7 +215,7 @@ body{
   
   /* Add a grey background color to dropdown links on hover */
   .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: grey;
   }
   
   /* Show the dropdown menu on hover */
