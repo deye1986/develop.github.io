@@ -64,7 +64,6 @@ body{
   max-height: auto;
   max-width: 40vw;
   top: 1100px;
-
 }
 
 .pagefooter{
@@ -112,19 +111,18 @@ body{
 }
 
 .nav-title{
-    display: flex;
-    justify-content: center;
+    text-align: right;
     font-family: 'Roboto Mono', monospace;
     color: yellow;
-    font-size: 90%;
-    align-items: baseline;       
+    font-size: 85%;   
 }
 
 .links{
-    display: flex, absolute;
-    width: 1000px;
+    display: absolute;
+    width: 80vw;
     height: 70px;    
 }
+
 .cont{
     display: flex;
     min-height: 70px;
@@ -152,8 +150,7 @@ body{
     display: flex;
     justify-content: right;
     height: 500px;
-    width: auto;
-   
+    width: auto;  
 }
 
  /* Navbar container on testpage */
@@ -164,8 +161,7 @@ body{
   }
   
   /* Links inside the navbar */
-  .navbar2 a {
-    
+  .navbar2 a { 
     float: left;
     font-size: 16px;
     color: black;
@@ -230,15 +226,12 @@ body{
 .wrapper{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(50px, auto);
 }
 
 .wrapper > div{
   background: darkgray;
-
-
 }
-
 
 .boxMayBlog{
   background: turquoise;
