@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <title>Contact</title>
     <link rel="stylesheet" href="main.css">
-    <script src="app.js"></script>     
+    
 </head>
 <body class="body">
+    <script src="app.js"></script> 
     <div class="navbar-container">
         <div class="nav-bar">
             <ul class="links">
@@ -30,10 +31,18 @@
         <div class="txt center">
             <h1>theme demo</h1>
         </div>
-        <div>
+        <div class="center">
             <button id="toggleBtn">Theme changer</button>
         </div>
     </div>
+    <script>
+    const toggleBtn = document.getElementById('toggleBtn');
+    const body = document.getElementById('body');
+
+    toggleBtn.addEventListener('click', () => {
+        body.classList.toggle('darkTheme')
+    });
+    </script>
 
 
     <div class="txt large">

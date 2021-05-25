@@ -2,19 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 
-:root {
-  --text-colour: #333;
-  --bg-colour: #f9f9f9;
+:root{
+  --bg-colour: darkgrey;
+  --text-colour: black;
 }
 
-.darktheme {
+body{
+  color: var(--text-colour);
+  background-color: var(--bg-colour);
+}
+
+.darkTheme {
   --bg-colour: #333;
   --text-colour: #f9f9f9;
 }
 
-body{        
-    background-color: darkgray;
-}
 
 /* testpage */
 
