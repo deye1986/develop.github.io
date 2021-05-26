@@ -26,7 +26,6 @@ body{
 }
 
 img{
-  display: flex;
   max-width: 98vw;
 }
 
@@ -121,7 +120,7 @@ img{
 .nav-bar{
     background: #7e7cec;
     height: 80px;
-    width: 99%;
+    width: 98vw;
     display: flex;
     align-items: center;
     font-size: 1.1rem;
