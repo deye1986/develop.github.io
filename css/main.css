@@ -62,7 +62,7 @@ img{
 
 .showcase .grid{
     overflow: visible;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 55% auto;
     gap: 30px;
 }
 
@@ -192,7 +192,14 @@ img{
 
 /* tablets and under */
 @media(max-width: 768px){
-
+  .grid,
+  .showcase .grid,
+  .stats .stats-heading
+  .cli .grid,
+  .cloud .grid{
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 }
 /* mobile  */
 @media(max-width: 500px){
