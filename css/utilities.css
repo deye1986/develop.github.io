@@ -36,10 +36,29 @@
     padding: 20px 10px;
 }
 
-.bg-primary, .btn-primary{
+.bg-primary, 
+.btn-primary{
     background-color: var(--primarycolour);
     color: white;
-  }
+}
+
+.bg-secondary, 
+.btn-secondary{
+    background-color: var(--secondarycolour);
+    color: white;
+}
+
+.bg-dark, 
+.btn-dark{
+    background-color: var(--darkcolour);
+    color: white;
+}
+
+.bg-light, 
+.btn-light{
+    background-color: var(--lightcolour);
+    color: #333;
+}
 
 .btn{
     display: inline-block;
@@ -49,6 +68,27 @@
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+.lead{
+    font-size: 20px;
+
+}
+
+.sm{
+    font-size: 1rem;
+}
+
+.md{
+    font-size: 2rem;
+}
+
+.lg{
+    font-size: 3rem;
+}
+
+.xl{
+    font-size: 4rem;
 }
 
 .text-center{
