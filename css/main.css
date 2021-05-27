@@ -73,6 +73,7 @@ img{
     width: 400px;
     padding: 40px;
     z-index: 100;
+    justify-self: flex-end;
 }
 
 .showcase-form .form-control{
@@ -167,6 +168,7 @@ img{
 .cloud .grid{
   grid-template-columns: 4fr 3fr;
 }
+
 .languages .flex{
   flex-wrap: wrap;
 }
