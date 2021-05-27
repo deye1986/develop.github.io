@@ -36,6 +36,11 @@
     padding: 20px 10px;
 }
 
+.bg-primary, .btn-primary{
+    background-color: var(--primarycolour);
+    color: white;
+  }
+
 .btn{
     display: inline-block;
     padding: 10px 30px;

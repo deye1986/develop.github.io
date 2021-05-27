@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root{
-  --primarycolour: #047aed;  
+  --primarycolour: #047aed;
+  --secondarycolour: #1c3fa8;
+  --darkcolour: #002240;
+  --lightcolour: #f4f4f4;
 }
 
 *{
@@ -160,3 +163,8 @@ img{
   grid-column: 1 / span 2;
   grid-row: 1 / span 2;
 }
+
+.cloud .grid{
+  grid-template-columns: 4fr 3fr;
+}
+
