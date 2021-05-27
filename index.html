@@ -2,129 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Open systems</title>
-    <link rel="stylesheet" href="main.css"> 
-    <script src="app.js"></script>     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <title>Home - Andela.io | Webhosting for everyone!</title>
 </head>
 <body>
-    <header>
-    <div class="navbar-container">
-        <div class="nav-bar">
-            <ul class="links center">
-                <div class="txt short"><a href="index.html">Home</a></div>
-                <div class="txt short"><a href="second.html">Python frameworks</a></div>
-                <div class="txt short"><a href="contact.html">Contact</a></div>
-            </ul>
-            <button class="cta"><a href="contact.html">Contact</a></button>
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo"> Andela</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
-            <div class="nav-title">
-                <h2>Open Systems</h2>
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Simple application deployment.</h1>
+                <p>Deploy every kind of web application, from large sacle
+                   web applications, to static websites for personal use
+                   and individuals. Whatever the case, Andela has got your 
+                   back. Fill out the form with your details, to try a
+                   demo of our platform. </p>
+                <a href="features.html" class="btn btn-outline">Read more</a>
+            </div>
+            <div class="showcase-form card">
+                <h2>Request a demonstration</h2>
+                <form>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="company" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="email" placeholder="email" required>
+                    </div>
+                    <input type="submit" value="send" class="btn btn-primary">                                        
+                </form>
             </div>
         </div>
-    </div>
-    </header>
-    <div class="box-two"></div>
+    </section>
 
-    <div class="wrapper">
-        <div class="txt center">
-        <a href="testpage.html">View test page.</a>
-        </div>
-        <div class="txt center">
-        <a href="demotest.html">View demo page.</a>
-        </div>
-        <div class="txt center">
-        <a href="gridpage.html">View demo2 page.</a>
-        </div>
-        <div class="txt center">
-        <a href="gallery.html">View gallery demo page.</a>
-        </div>
-    </div>
+    <section class="stats">
+        <div class="container">
+            <h3 class="stats-heading text-center"> <!-- 'my 1 removed - problem with positioning'-->
+                The platform that breaks the development mould. The platform for all
+                types of application building and scaling. The one and only best
+                platform thats by your digital side until you are 100% satisfied.
+            </h3>
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-server fa-3x"></i>
+                    <h3>3,845,845</h3>
+                    <p class="text-secondary">Deployments</p>
+                </div>
+                <div>
+                    <i class="fas fa-upload fa-3x"></i>
+                    <h3>+1000 Terabytes</h3>
+                    <p class="text-secondary">Published</p>                    
+                </div>
+                <div>
+                    <i class="fas fa-project-diagram fa-3x"></i>
+                    <h3>23,845,845</h3>
+                    <p class="text-secondary">Projects</p>                    
+                </div>
 
-    <div>
-        <div class="txt center">
-        <h1>CSS: Visually pleasing, easy to read and uniform pages with Cascading Style Sheets.</h1>
-        <h2><br></h2>
-        </div>
-        <div class="txt center">
-            <h1>Bootstrap framework for Cascading Style Sheets
-                <h2>David Ikin</h2>
-            </h1>
-            <p>I was able to easily develop CSS skill and it naturally leads to JavaScript which is soon
-                to be implemented in to web projects although there is somthing else prior which
-                i have identified as useful. Bootstrap is a CSS framework which is for mobile compatibility
-                and browser comapatability. Its an already developed framework but its important to understand
-                how it actually works.
-            </p>
-            <div class="center">
-                <img src="images/imageGalleryPage.PNG" alt="screenshot of a webpage">
             </div>
         </div>
-        <div class="txt center">
-        <p> <br> Ive been working from project to project over the past year and 
-            i have developed and completed many Python projects and web projects. Cascading style sheets seems
-            a really valuable skill to learn. Combined with HTML the results are visually pleasing and
-            gives instant gratification in the sense of digital production. The JavaScript is ready to be applied
-            now. <br> <br>
-            The CSS grid style is a good one. We can use 'grid-auto-flow: dense;' and 'grid-row-span: 2;', along
-            with 'grid-column: span, 2;'. This means a dynamic grid layout with rectangles can be seen, and
-            its compatible with mobiles. A grid with completley equal segements is boring and this sets a more
-            abstract grid, its nice as you can see below.
-        </p>
+    </section>
+    <section class="cli">
+        <div class="container grid">
+            <img src="images/ikinandela.PNG" alt="cli image tall100px">
+            <div class="card">
+                <h3>Powerful Python framework to add Python programming language to your web project!</h3>
+            </div>
+            <div class="card">
+                <h3>Deploy in seconds!</h3>
+            </div>
         </div>
-        <div class="center">
-            <img src="images/mayBlogImage.PNG" alt="Screenshot of a CSS grid style web page">
+    </section>
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container grid">
+            <div class="text-center">
+                <h2 class="lg">Extreme cloud hosting</h2>
+                <p class="lead my-1">Cloud hosting like youve never seen. Fast efficiant</p>
+                <a href="features.html" class="btn btn-dark">Read more</a>
+            </div>
         </div>
-        <div class="txt center">
-            <a href="gallery.html">View gallery demo page.</a>
-        </div>
-    </div>
-
-    <div class="wrapper">
-        <div class="boxMayBlog"></div>
-
-    </div>
-
-    <div class="txt center">
-        <div class="">
-           <h1>Building modern goodlooking websites for demonstration with HTML5, CSS3 & JavaScript.</h1>
-           <h2>Dave Ikin @ CodeNation, Develop 2021</h2>
-        </div>
-        <p>
-        <div class="right">
-        <br> We can use free computer software to make websites.
-        Visual Studio Code is a source code editor. Its free and is a popular choice
-        with developers.<br>
-        HTML and CSS have excellent documentation and resources so as long as you have 
-        a plan of what kind of page you intend to create,<br> it should be an achievable
-        goal.<br>
-        Learning new languages can be hard for some people, my advice is try to
-        start with 30mins per day trying to learn somthing <br>new each time, and build it
-        up from there. If you learn one new thing per session, <br>thats 30 new things
-        you have learnt in a average month.
-        </p>
-        </div>
-    </div>
-
-    <div class="box-three">
-    <img src="images/vscimage.png" alt="image of vsc screen">
-    </div>
-
-    <div class="txt">
-        <br>
-        Here is an image of a trello board that you can use to plan your project. Its system has three boards,
-        To-do, doing and done.<br> The concept is to start madatory tasks in the To-do list, and as the 
-        project moves forward, you move the item task into the <br>next list - doing. From then when you have competed
-        that item, you would put it in the done list.
-        <br>
-    </div>
-
-    <div class="">
-        <img src="images/kanbansys.JPG" alt="kanban system on trello">
-    </div>
-
-    <div class="cont signature">
-        <address>Made 16 April 2021<br>by David Ikin.</address>
-    </div>
-
+    </section>
 </body>
 </html>
+

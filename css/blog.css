@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+:root{
+  --bg-colour: darkgrey;
+  --text-colour: black;
+}
+
+button{
+  padding: 9px 25px;
+  background-color: rgb(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0;
+}
+
+button:hover{
+  background-color: rgb(0, 136, 169, 0.8);  
+}
+
+body{
+  color: var(--text-colour);
+  background-color: var(--bg-colour);
+}
+
+img{
+  max-width: 98vw;
+}
+
+.darkTheme {
+  --bg-colour: #333;
+  --text-colour: #f9f9f9;
+}
+
+
+/* testpage */
+
+.testpage{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; 
+  background-color: white;
+  justify-content: center;
+}
+
+.boxes{
+  width: 50%;
+}
+
+.testheading{
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 500;
+  font-family: 'exo 2', sans-serif;
+  padding-right: 20px;
+  max-width: 80vw;
+  max-height: 40vh;
+}
+
+.testclass{
+  display: flex;
+  justify-content: flex-end;
+  max-height: 80vh;
+  max-width: 45vw;
+}
+
+.article1{
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'exo 2', sans-serif;
+  font-size: 25px;
+  padding-right: 20px;
+  max-height: 50vh;
+  max-width: 50vw;
+}
+
+.testimg-2{
+  position: absolute;
+  max-height: auto;
+  max-width: 40vw;
+  top: 1100px;
+}
+
+.pagefooter{
+  position: fixed;
+  bottom: 20px;
+}
+
+/* main */
+
+.txt{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.marg{
+    margin: 20px;
+}
+.large{
+    font-size: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+  text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.short{
+    width: 200px;
+}
+
+.nav-bar{
+    background: #7e7cec;
+    height: 80px;
+    width: 98vw;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav-title{
+    text-align: right;
+    font-family: 'Roboto Mono', monospace;
+    color: yellow;
+    font-size: 85%;   
+}
+
+.links{
+    display: flex;
+    width: 80vw;
+    height: 70px;    
+}
+
+.links > div{
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.links > div > a{
+  transition: all 0.3s ease 0;
+}
+
+.links > div > a:hover{
+  transition: all 0.3s ease 0;
+  color: blue;
+}
+
+.cont{
+    display: flex;
+    min-height: 70px;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box-one{
+    display: flex;
+    max-width: 0%;
+    justify-content: flex-start;
+    flex-wrap: wrap;   
+}
+
+.box-two{
+    display: inline-flex;
+    background-color: #7e7cec;   
+    height: 70px;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.box-three{
+    display: flex;
+    justify-content: right;
+    height: 500px;
+    width: auto;  
+}
+
+ /* Navbar container on testpage */
+ .navbar2 {
+    overflow: hidden;
+    background-color: lightgray;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar2 a { 
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* blue background color for navbar links on hover */
+  .navbar2 a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: grey;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+}
+
+.wrapper > div{
+  background: darkgray;
+}
+
+.boxMayBlog{
+  background: turquoise;
+}
+
+
+  
