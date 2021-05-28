@@ -188,7 +188,7 @@ img{
   transform: translateY(-15px);
 }
 
-.features-head img{
+.features-head img .docs-head img{
   width: 300px;
   justify-self: flex-end;
 }
