@@ -202,7 +202,26 @@ img{
     grid-template-columns: 1fr;
     grid-template-columns: 1fr;
   }
+
+  .showcase{
+    height: auto;
+  }
+
+  .showcase-text{
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .showcase-form{
+    justify-self: center;
+    margin: auto;
+  }
+  .cli .grid > *:first-child{
+    grid-column: 1;
+    grid-row: 1;
+  }
 }
+
 /* mobile  */
 @media(max-width: 500px){
   .navbar{
