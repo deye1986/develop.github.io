@@ -70,6 +70,23 @@
     color: white;
 }
 
+.text-primary{
+    color: var(--primarycolour);
+}
+
+.text-secondary{
+    color: var(--secondarycolour);
+}
+
+.text-dark{
+    color: var(--darkcolour);
+}
+
+.text-light{
+    color: var(--lightcolour);
+}
+
+
 .btn{
     display: inline-block;
     padding: 10px 30px;
