@@ -348,7 +348,7 @@ pre{
 }
 
 /* mobile  */
-@media(max-width: 500px){
+@media(max-width: 360px){
   .navbar{
     height: 110px;
   }
