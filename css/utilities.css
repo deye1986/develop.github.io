@@ -195,3 +195,24 @@
     padding: 4rem;
 }
 
+.alert{
+    background-color: var(--lightcolour);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert .i{
+    margin-right: 10px;
+}
+
+.alert-success{
+    background-color: var(--success-colour);
+    color: #fff;
+}
+
+.alert-error{
+    background-color: var(--success-error);
+    color: #fff;
+}
+
